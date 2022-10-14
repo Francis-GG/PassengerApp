@@ -5,6 +5,9 @@ body {
     font-weight: bold;
     text-align: center;
 }
+#background {
+    opacity: 0.5;
+}
 
 h1 {
     margin-top: 10px;
