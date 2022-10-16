@@ -9,7 +9,7 @@
 // increment the count variable when the button is clicked (log it out)
 // change the count-el in the HTML to reflect the new count
 let countEl = document.getElementById("count-el")
-
+let saveEl = document.getElementById("save-el")
 let peopleCount = 0
 
 function increment(){
@@ -19,8 +19,11 @@ function increment(){
 }
 
 function save(){
+    let countSave = " " + peopleCount + " - "
     console.log(peopleCount)
+    saveEl.innerText += countSave
 }
+
 
 
 
