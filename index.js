@@ -15,13 +15,14 @@ let peopleCount = 0
 function increment(){
     peopleCount = peopleCount + 1
     console.log(peopleCount)
-    countEl.innerText = peopleCount
+    countEl.textContent = peopleCount
 }
 
 function save(){
-    let countSave = " " + peopleCount + " - "
-    console.log(peopleCount)
-    saveEl.innerText += countSave
+    let countSave = peopleCount + " - "
+    saveEl.textContent += countSave
+    peopleCount = 0
+    countEl.textContent = peopleCount
 }
 
 
