@@ -18,6 +18,10 @@ function increment(){
     countEl.innerText = peopleCount
 }
 
+function save(){
+    console.log(peopleCount)
+}
+
 
 
 
